@@ -4,8 +4,8 @@
   --cart-aside-summary-height: 250px;
   --grid-item-width: 355px;
   --header-height: 64px;
-  --color-dark: #CCC;
-  --color-light: #000;
+  --color-dark: #000;
+  --color-light: #FFF;
 }
 
 img {
@@ -129,7 +129,8 @@ aside li {
 */
 .header {
   align-items: center;
-  background: #fff;
+  background: #000;
+  color: red;
   display: flex;
   height: var(--header-height);
   padding: 0 1rem;
@@ -320,7 +321,7 @@ aside li {
 }
 
 .featured-collection img {
-  height: auto;
+  height: 10vh;
   max-height: 100%;
   object-fit: cover;
 }
